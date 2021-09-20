@@ -24,7 +24,7 @@ public class Hospital {
 //		doc.name = "Sam"; 
 		
 		//Setter example
-		doc.setName("Sam");
+//		doc.setName("Sam");
 		
 		//Getter example
 		System.out.println(doc.getName());
@@ -33,8 +33,33 @@ public class Hospital {
 		System.out.println(doc.getInfo("Tom"));
 		
 		
+		Doctor newDoc = new Doctor("Cardiologist", "Zan", "Mitrev");
+//		newDoc.setName("Zan");
+//		newDoc.setSurname("Mitrev");
+//		newDoc.setSpeciality("Cardiologist");
 		
-		;
+		
+		
+		System.out.println("=====================================================================");
+		
+		System.out.println("Doctor info: \nname: " + newDoc.getName() + "\nsurname: " + newDoc.getSurname());
+		
+		Doctor dimitar = new Doctor("Cardiologist", "Dimitar", "Josifov");
+		
+		System.out.println(dimitar.toString());
+		
+	
+		
+		//Arrays
+		
+		Doctor doktori[] = {new Doctor("Stomatolog", "Tom", "Jonhs"), new Doctor("Zan", "Mitrev"), new Doctor("Lee","Cooper")};
+		
+		for (Doctor doctor : doktori) {
+			System.out.println("Ime i prezime: " + doctor.getName() + " " + doctor.getSurname());
+		}
+		
+//		Surgeon hirurg = new 
+		
 		
 	}
 

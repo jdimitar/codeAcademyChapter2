@@ -7,7 +7,10 @@ public class Demo {
 		byte x;
 		int a = 270;
 		double b = 128.128;
+		String tekst = "";
 		
+		
+		System.out.println(tekst);
 		
 		//cast example
 		System.out.println("int converted to byte");
