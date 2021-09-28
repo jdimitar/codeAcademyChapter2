@@ -5,6 +5,7 @@ public class Doctor {
 	private String speciality;
 	private String name;
 	private String surname;
+	private Integer age;
 	
 	
 	
