@@ -44,7 +44,14 @@ public class Excercise7 {
 		}
 		//reshenieto od nizava premestete go vo nova niza pokratka za eden element
 
+		Integer novaModificiranaNiza[] = new Integer[niza.length-1];
+		
+		for (int i = 0; i < novaModificiranaNiza.length; i++) {
+			novaModificiranaNiza[i] = niza[i];
+		}
+		
 		System.out.println("Modificirana niza " + Arrays.toString(niza));
+		System.out.println("Novata Modificirana niza " + Arrays.toString(novaModificiranaNiza));
 
 	}
 
